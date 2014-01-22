@@ -20,7 +20,7 @@
       if (options == null) {
         options = {};
       }
-      _.extend(this, options);
+      jQuery.extend(this, options);
       if (this.file_dom_selector) {
         this.handleFileSelect($(this.file_dom_selector).get(0));
       }

@@ -20,7 +20,7 @@ class window.S3Upload
 	# Don't override these
 
 	constructor: (options = {}) ->
-		_.extend(this, options)
+		jQuery.extend(this, options)
 		if @file_dom_selector
 			@handleFileSelect $(@file_dom_selector).get(0)
 
